@@ -1,3 +1,7 @@
+/*
+**класс для умножения матрицы на вектор. обработка одной строки матрицы в порожденном потоке.
+*/
+
 package threads;
 import java.util.*;
 
@@ -16,7 +20,7 @@ public class Main {
 		}	
 	}
 }
-
+//matrice class
 class Matrix implements  Runnable{
 	private int row_size = 3;
 	private int column_size = 3;
